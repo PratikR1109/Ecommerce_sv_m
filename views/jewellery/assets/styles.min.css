@@ -1,0 +1,732 @@
+@font-face {
+	font-family: melorraIcons;
+	src: url(fonts/melorraIcons.eot?der02o);
+	src: url(fonts/melorraIcons.eot?der02o#iefix) format('embedded-opentype'),url(fonts/melorraIcons.ttf?der02o) format('truetype'),url(fonts/melorraIcons.woff?der02o) format('woff'),url(fonts/melorraIcons.svg?der02o#melorraIcons) format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-display: block;
+}
+
+i {
+	font-family: melorraIcons!important;
+	speak: never;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.melorra-Down-arrow-2:before {
+	content: "\e98a";
+}
+
+.melorra-save-for-later:before {
+	content: "\e944";
+}
+
+.melorra-Down-arrow:before {
+	content: "\e947";
+}
+
+.melorra-Arrow:before {
+	content: "\e924";
+	color: #0fb269;
+}
+
+.melorra-gift:before {
+	content: "\e943";
+	color: #f05b00;
+}
+
+.melorra-location:before {
+	content: "\e96d";
+	color: #f05b00;
+}
+
+.melorra-verified:before {
+	content: "\e96e";
+	color: #f05b00;
+}
+
+.melorra-no-ring .path1:before {
+	content: "\e96f";
+	color: #ffca90;
+}
+
+.melorra-no-ring .path2:before {
+	content: "\e970";
+	margin-left: -1em;
+	color: #dda976;
+}
+
+.melorra-no-ring .path3:before {
+	content: "\e971";
+	margin-left: -1em;
+	color: #dda976;
+}
+
+.melorra-no-ring .path4:before {
+	content: "\e972";
+	margin-left: -1em;
+	color: #0cc5e5;
+}
+
+.melorra-no-ring .path5:before {
+	content: "\e973";
+	margin-left: -1em;
+	color: #076991;
+}
+
+.melorra-no-ring .path6:before {
+	content: "\e974";
+	margin-left: -1em;
+	color: #ea473b;
+}
+
+.melorra-have-ring .path1:before {
+	content: "\e975";
+	color: #ffca90;
+}
+
+.melorra-have-ring .path2:before {
+	content: "\e976";
+	margin-left: -.73046875em;
+	color: #dda976;
+}
+
+.melorra-have-ring .path3:before {
+	content: "\e977";
+	margin-left: -.73046875em;
+	color: #dda976;
+}
+
+.melorra-have-ring .path4:before {
+	content: "\e978";
+	margin-left: -.73046875em;
+	color: #0cc5e5;
+}
+
+.melorra-have-ring .path5:before {
+	content: "\e979";
+	margin-left: -.73046875em;
+	color: #076991;
+}
+
+.melorra-blog .path1:before {
+	content: "\e97a";
+	color: #fff;
+}
+
+.melorra-blog .path2:before {
+	content: "\e97b";
+	margin-left: -1em;
+	color: #636363;
+}
+
+.melorra-shopping-rate-us .path1:before {
+	content: "\e97c";
+	color: #58595b;
+}
+
+.melorra-shopping-rate-us .path2:before {
+	content: "\e97d";
+	margin-left: -.8828125em;
+	color: #e55053;
+}
+
+.melorra-shopping-rate-us .path3:before {
+	content: "\e97e";
+	margin-left: -.8828125em;
+	color: #e55053;
+}
+
+.melorra-shopping-rate-us .path4:before {
+	content: "\e97f";
+	margin-left: -.8828125em;
+	color: #e55053;
+}
+
+.melorra-shopping-rate-us .path5:before {
+	content: "\e980";
+	margin-left: -.8828125em;
+	color: #e55053;
+}
+
+.melorra-shopping-rate-us .path6:before {
+	content: "\e981";
+	margin-left: -.8828125em;
+	color: #e55053;
+}
+
+.melorra-shopping-rate-us .path7:before {
+	content: "\e982";
+	margin-left: -.8828125em;
+	color: #e55053;
+}
+
+.melorra-shopping-rate-us .path8:before {
+	content: "\e983";
+	margin-left: -.8828125em;
+	color: #e55053;
+}
+
+.melorra-shopping-rate-us .path9:before {
+	content: "\e984";
+	margin-left: -.8828125em;
+	color: #e55053;
+}
+
+.melorra-good-ratings-smiley:before {
+	content: "\e985";
+}
+
+.melorra-bad-ratings-smiley:before {
+	content: "\e986";
+}
+
+.melorra-awesome-ratings-smiley:before {
+	content: "\e987";
+}
+
+.melorra-average-ratings-smiley:before {
+	content: "\e946";
+}
+
+.melorra-arrow-curve-icon:before {
+	content: "\e948";
+	color: #fff;
+}
+
+.melorra-vigilantly-icon .path1:before {
+	content: "\e949";
+	color: #000;
+}
+
+.melorra-vigilantly-icon .path2:before {
+	content: "\e94a";
+	margin-left: -1.052734375em;
+	color: #fc9b00;
+}
+
+.melorra-vigilantly-icon .path3:before {
+	content: "\e94b";
+	margin-left: -1.052734375em;
+	color: #000;
+}
+
+.melorra-vigilantly-icon .path4:before {
+	content: "\e94c";
+	margin-left: -1.052734375em;
+	color: #000;
+}
+
+.melorra-correct-pincode .path1:before {
+	content: "\e988";
+	color: #f05b00;
+}
+
+.melorra-correct-pincode .path2:before {
+	content: "\e989";
+	margin-left: -1em;
+	color: #fff;
+}
+
+.melorra-meticulous-icon .path1:before {
+	content: "\e94d";
+	color: #fc9b00;
+}
+
+.melorra-meticulous-icon .path2:before {
+	content: "\e94e";
+	margin-left: -1em;
+	color: #fc9b00;
+}
+
+.melorra-meticulous-icon .path3:before {
+	content: "\e94f";
+	margin-left: -1em;
+	color: #000;
+}
+
+.melorra-each-design .path1:before {
+	content: "\e950";
+	color: #fc9b00;
+}
+
+.melorra-each-design .path2:before {
+	content: "\e951";
+	margin-left: -1em;
+	color: #fc9b00;
+}
+
+.melorra-each-design .path3:before {
+	content: "\e952";
+	margin-left: -1em;
+	color: #fc9b00;
+}
+
+.melorra-each-design .path4:before {
+	content: "\e953";
+	margin-left: -1em;
+	color: #000;
+}
+
+.melorra-each-design .path5:before {
+	content: "\e954";
+	margin-left: -1em;
+	color: #000;
+}
+
+.melorra-craft-icon .path1:before {
+	content: "\e955";
+	color: #000;
+}
+
+.melorra-craft-icon .path2:before {
+	content: "\e956";
+	margin-left: -.75em;
+	color: #000;
+}
+
+.melorra-craft-icon .path3:before {
+	content: "\e957";
+	margin-left: -.75em;
+	color: #000;
+}
+
+.melorra-craft-icon .path4:before {
+	content: "\e958";
+	margin-left: -.75em;
+	color: #000;
+}
+
+.melorra-craft-icon .path5:before {
+	content: "\e959";
+	margin-left: -.75em;
+	color: #000;
+}
+
+.melorra-craft-icon .path6:before {
+	content: "\e95a";
+	margin-left: -.75em;
+	color: #000;
+}
+
+.melorra-craft-icon .path7:before {
+	content: "\e95b";
+	margin-left: -.75em;
+	color: #000;
+}
+
+.melorra-craft-icon .path8:before {
+	content: "\e95c";
+	margin-left: -.75em;
+	color: #fc9b00;
+}
+
+.melorra-craft-icon .path9:before {
+	content: "\e95d";
+	margin-left: -.75em;
+	color: #000;
+}
+
+.melorra-calender:before {
+	content: "\e95e";
+}
+
+.melorra-tick-mark-icon:before {
+	content: "\e95f";
+}
+
+.melorra-exchange:before {
+	content: "\e960";
+}
+
+.melorra-filter-icon:before {
+	content: "\e935";
+}
+
+.melorra-newtag .path1:before {
+	content: "\e934";
+	color: #f05b01;
+}
+
+.melorra-newtag .path2:before {
+	content: "\e93a";
+	margin-left: -1em;
+	color: #fff;
+}
+
+.melorra-info-icon:before {
+	content: "\e961";
+}
+
+.melorra-close-icon:before {
+	content: "\e933";
+	color: #fff;
+}
+
+.melorra-accordian-close:before {
+	content: "\e932";
+	color: grey;
+}
+
+.melorra-mail:before {
+	content: "\e931";
+	color: #a1a1a1;
+}
+
+.melorra-faq1:before {
+	content: "\e92f";
+	color: #868686;
+}
+
+.melorra-faq:before {
+	content: "\e92d";
+}
+
+.melorra-twitter:before {
+	content: "\e929";
+	color: #636363;
+}
+
+.melorra-instagram:before {
+	content: "\e925";
+	color: #636363;
+}
+
+.melorra-youtube:before {
+	content: "\e927";
+	color: #636363;
+}
+
+.melorra-facebook:before {
+	content: "\e923";
+	color: #636363;
+}
+
+.melorra-flash-sale:before {
+	content: "\e962";
+	color: #fa6400;
+}
+
+.melorra-back-arrow:before {
+	content: "\e91f";
+	color: #575d67;
+}
+
+.melorra-hamburger:before {
+	content: "\e922";
+	color: #737373;
+}
+
+.melorra-whatsapp-green:before {
+	content: "\e963";
+	color: #65bc54;
+}
+
+.melorra-call-icon .path1:before {
+	content: "\e926";
+	color: #868686;
+}
+
+.melorra-call-icon .path2:before {
+	content: "\e928";
+	margin-left: -1em;
+	color: #fff;
+}
+
+.melorra-chat:before {
+	content: "\e92a";
+	color: #868686;
+}
+
+.melorra-service-guarantee:before {
+	content: "\e92b";
+	color: #868686;
+}
+
+.melorra-whatsapp:before {
+	content: "\e92c";
+	color: #868686;
+}
+
+.melorra-bangle:before {
+	content: "\e90e";
+	color: #f05b00;
+}
+
+.melorra-bracelets:before {
+	content: "\e90f";
+	color: #f05b00;
+}
+
+.melorra-chain:before {
+	content: "\e910";
+	color: #f05b00;
+}
+
+.melorra-earring:before {
+	content: "\e911";
+	color: #f05b00;
+}
+
+.melorra-necklace:before {
+	content: "\e912";
+	color: #f05b00;
+}
+
+.melorra-new-jewellery:before {
+	content: "\e913";
+	color: #f05b00;
+}
+
+.melorra-nosepin:before {
+	content: "\e914";
+	color: #f05b00;
+}
+
+.melorra-pendants:before {
+	content: "\e915";
+	color: #f05b00;
+}
+
+.melorra-rings:before {
+	content: "\e916";
+	color: #f05b00;
+}
+
+.melorra-sale:before {
+	content: "\e917";
+	color: #f05b00;
+}
+
+.melorra-back-button .path1:before {
+	content: "\e964";
+	color: #ef7a11;
+}
+
+.melorra-back-button .path2:before {
+	content: "\e965";
+	margin-left: -4.3740234375em;
+	color: #000;
+}
+
+.melorra-back-button .path3:before {
+	content: "\e966";
+	margin-left: -4.3740234375em;
+	color: #000;
+}
+
+.melorra-back-button .path4:before {
+	content: "\e967";
+	margin-left: -4.3740234375em;
+	color: #000;
+}
+
+.melorra-back-button .path5:before {
+	content: "\e968";
+	margin-left: -4.3740234375em;
+	color: #000;
+}
+
+.melorra-back-button .path6:before {
+	content: "\e969";
+	margin-left: -4.3740234375em;
+	color: #000;
+}
+
+.melorra-back-button .path7:before {
+	content: "\e96a";
+	margin-left: -4.3740234375em;
+	color: #000;
+}
+
+.melorra-solitaire:before {
+	content: "\e92e";
+	color: #f05b00;
+}
+
+.melorra-all-jewellery:before {
+	content: "\e918";
+	color: #f05b00;
+}
+
+.melorra-bag1:before {
+	content: "\e920";
+	color: #505050;
+}
+
+.melorra-fast-delivery:before {
+	content: "\e919";
+	color: #f05b00;
+}
+
+.melorra-happy-customers:before {
+	content: "\e91a";
+	color: #606060;
+}
+
+.melorra-my-account:before {
+	content: "\e90d";
+	color: #505050;
+}
+
+.melorra-new-designs-weekly:before {
+	content: "\e91b";
+	color: #606060;
+}
+
+.melorra-pincodes:before {
+	content: "\e91c";
+	color: #606060;
+}
+
+.melorra-products-sold:before {
+	content: "\e91d";
+	color: #606060;
+}
+
+.melorra-quality-checks:before {
+	content: "\e91e";
+	color: #606060;
+}
+
+.melorra-Search:before {
+	content: "\e921";
+	color: #737373;
+}
+
+.melorra-search:before {
+	content: "\e909";
+}
+
+.melorra-wishlist:before {
+	content: "\e90a";
+}
+
+.melorra-delete:before {
+	content: "\e96b";
+}
+
+.melorra-certified:before {
+	content: "\e945";
+}
+
+.melorra-return-icon:before {
+	content: "\e93e";
+}
+
+.melorra-on-sale:before {
+	content: "\e93f";
+}
+
+.melorra-quickship-alt:before {
+	content: "\e940";
+}
+
+.melorra-all-jewellery-icon:before {
+	content: "\e941";
+}
+
+.melorra-shortlistActive:before {
+	content: "\e942";
+	color: #f05b00;
+}
+
+.melorra-share:before {
+	content: "\e93b";
+}
+
+.melorra-similar-icon:before {
+	content: "\e93d";
+}
+
+.melorra-sort:before {
+	content: "\e93c";
+}
+
+.melorra-fastDelivery:before {
+	content: "\e939";
+	color: #e94402;
+}
+
+.melorra-shortlist-active:before {
+	content: "\e936";
+	color: #e94402;
+}
+
+.melorra-shortlist-hover:before {
+	content: "\e937";
+	color: #e94402;
+}
+
+.melorra-shortlist:before {
+	content: "\e938";
+}
+
+.melorra-gold:before {
+	content: "\e930";
+	color: #f05b00;
+}
+
+.melorra-bag:before {
+	content: "\e90b";
+}
+
+.melorra-logo:before {
+	content: "\e90c";
+}
+
+.melorra-call:before {
+	content: "\e908";
+}
+
+.melorra-call-green:before {
+	content: "\e96c";
+	color: #65bc54;
+}
+
+.melorra-arrow-right:before {
+	content: "\e904";
+}
+
+.melorra-quotes:before {
+	content: "\e905";
+}
+
+.melorra-yt-play-btn:before {
+	content: "\e906";
+}
+
+.melorra-arrow-left:before {
+	content: "\e907";
+	color: #a5a5a5;
+}
+
+.melorra-30-day:before {
+	content: "\e900";
+	color: #ff4d00;
+}
+
+.melorra-bis:before {
+	content: "\e901";
+	color: #ff4d00;
+}
+
+.melorra-cod:before {
+	content: "\e902";
+	color: #ff4d00;
+}
+
+.melorra-lifetime:before {
+	content: "\e903";
+	color: #ff4d00;
+}
+
+.melorra-play3:before {
+	content: "\ea1c";
+}

@@ -1,0 +1,1353 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#faeae2">
+  <title><%= data2.name %> | MantraDiamond</title>
+
+
+
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+  <link href="<%=BaseUrl%>/jewellery/assets/fontawesomea35f.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/slick591e.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/slick-themec224.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/animate5570.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/themify1c32.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/bootstrape287.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/menu0cdc.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/magnific-popup5b32.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/jquery.fancybox46c7.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/plugins.scssb5a3.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/swatches69dc.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/style.scss2884.css" rel="stylesheet" type="text/css" media="all" id="color" />
+  <link href="<%=BaseUrl%>/jewellery/assets/theme-dark.scss95d6.css"  rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/responsive.scsseb80.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,800&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Dancing+Script:400,500,600,700|Great+Vibes|Pacifico&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2:400,400i,500,500i,600,700&amp;display=swap" rel="stylesheet"> 
+  <script src="<%=BaseUrl%>/jewellery/assets/jqueryf28a.js?v=313557106959907739" type="text/javascript"></script>
+<link rel="stylesheet" href="<%=BaseUrl%>/adminPanel/css/sweetalert.min.css">
+
+</head>
+
+<body class="template-product">
+
+
+<!--  <div class="loader-wrapper"></div>-->
+
+  <%- include('header.html') %>
+
+
+<!--<div class="breadcrumb-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="page-title">
+          <h2 class="lang_trans" data-trans="#folding-earring_breadcrumb_page_title">
+            <%= data2.category %>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>-->
+
+
+<div class="breadcrumb-section">
+        <div class="container">
+          <div class="row">
+
+
+            <div class="col-sm-6">
+              <div class="page-title">
+
+
+
+
+                <h2 class="lang_trans" data-trans="#golden_breadcrumb_page_title">
+                    <a href="<%=BaseUrl%>" style="color: #333;">Home</
+                </h2>
+
+                <!-- <span class="hide" id="golden_breadcrumb_page_title">Golden</span> -->
+
+
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <nav aria-label="breadcrumb" class="theme-breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="<%=BaseUrl%>/category/<%= data2.category %>/1" data-trans-key="general.breadcrumb.home"><%= data2.category %></a></li>
+      
+                  
+                  
+                  <li class="breadcrumb-item active lang_trans" data-trans="#golden_breadcrumb_active_page_title">
+                   <a style="color:#999" href="<%=BaseUrl%>/scategory/<%= data2.category %>/<%= data2.category %>/1" data-trans-key="general.breadcrumb.home"> <%= data2.subcategory %></a>
+                  </li>
+                  
+                  
+      
+                </ol>
+              </nav>
+            </div>
+      
+                  
+          </div>
+        </div>
+      </div>
+
+<div id="shopify-section-product-template" class="shopify-section">
+  <section id="ProductSection-product-template"  data-section-id="product-template"
+  data-section-type="product"
+  data-enable-history-state="true">
+  <meta itemprop="name" content="folding earring">
+  <meta itemprop="url" content="https://ps-jewelshop.myshopify.com/products/folding-earring">
+  <meta itemprop="image" content="//cdn.shopify.com/s/files/1/0350/6349/6839/products/image_2_89ec97a6-569e-42a4-a073-0e9c8a9c44f8_800x.jpg?v=1584524888">
+  
+  
+  <div class="collection-wrapper">
+    <div class="container">
+      <div class="row">
+
+<!--        <div class="col-lg-6">
+          <div class="product-slick">
+
+
+
+
+            <div id="FeaturedImageZoom-product-template-15494847168647-wrapper">
+
+              <img itemprop="image" src="<%=BaseUrl%>/jewellery/image/<%= data2.image %>" 
+              data-src="<%=BaseUrl%>/jewellery/image/<%= data2.image %>" 
+              data-widths="[157, 270, 303, 370, 377, 670, 570, 720, 900, 1080, 1296, 1512, 1728, 2048]" 
+              data-aspectratio="2.0" 
+              data-sizes="auto" 
+              class="lazyload  img-fluid image_zoom_cls-0 main_img" alt="Mantra Diamond <%= data1.image %>" >
+            </div>
+
+          </div>
+        </div>-->
+
+
+
+<style>
+/*.card {
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+fieldset.active {
+    display: block !important
+}
+
+fieldset {
+    display: none
+}
+
+.pic0 {
+    width: 350px;
+    display: block
+}
+
+.vid0 {
+    width: 350px;
+    display: block
+}
+
+.product-pic {
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%
+}
+
+.thumbnails {
+    position: absolute
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+.tb-active {
+    opacity: 1
+}
+
+.thumbnail-img {
+    width: 60px;
+    height: 60px
+}
+
+
+.thumbnail{
+	object-fit: cover;
+	max-width: 180px;
+	max-height: 100px;
+	cursor: pointer;
+	opacity: 0.5;
+	margin: 5px;
+	border: 2px solid black;
+
+}
+
+.thumbnail:hover{
+	opacity:1;
+}
+
+.active{
+	opacity: 1;
+}
+
+#slide-wrapper{
+	max-width: 500px;
+	display: flex;
+	min-height: 100px;
+	align-items: center;
+}
+
+#slider{
+	width: 350px;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+ position: relative;
+}
+
+
+.arrow{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.arrow:hover{
+	opacity: .5;
+	width: 35px;
+	height: 35px;
+}
+
+@media screen and (max-width: 768px) {
+    .pic0 {
+        width: 330px;
+    }
+
+    .vid0 {
+        width: 330px;
+    }
+}*/
+
+
+.card {
+    margin: auto;
+    padding: 20px;
+    border-radius: 0px;
+}
+
+fieldset.active {
+    display: block !important
+}
+
+fieldset {
+    display: none
+}
+
+.pic0 {
+/*    width: 450px;
+    display: block
+ width: auto;*/
+object-fit: contain;
+    height: 550px;
+    display: block
+}
+
+.vid0 {
+   /* width: 530px;
+    height: 450px;
+    display: block*/
+    width: 432px;
+    height: 550px;
+    display: block
+}
+
+.product-pic {
+  
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%
+}
+
+.thumbnails {
+    position: absolute
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+.tb-active {
+    opacity: 1
+}
+
+.thumbnail-img {
+    width: 60px;
+    height: 60px
+}
+
+.thumbnail{
+	object-fit: contain;
+	width: 130px;
+	height: 80px;
+	cursor: pointer;
+	opacity: 1;
+	margin-top: 5px;
+  margin-bottom: 5px;
+	border: 1px solid #dcdcdc;
+}
+
+.active{
+	opacity: 1;
+}
+
+.vdo {
+  flex: 0 0 100%;
+  max-width: 100%;
+  height: 80px;
+}
+
+.col-3 {
+    flex: 0 0 20%;
+    max-width: 20%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.boxx {
+      margin-left: -8px;
+      margin-right: -8px;
+    }
+
+
+@media screen and (max-width: 768px) {
+  .col-3 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+    .pic0 {
+     /* width: auto;*/
+      object-fit: contain;
+      height: 300px;
+    }
+
+    .vid0 {
+     /* width: 290px;
+      height: 290px;*/
+      width: 300px;
+      height: 300px;  
+      display: block  
+    }
+
+    .thumbnail{
+      width: 200px;
+      height: 80px;
+      opacity: 1;
+      border: 1px solid #dcdcdc;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    .vdo {
+      flex: 0 0 100%;
+      max-width: 100%;
+      height: 80px;
+    }
+
+    .magnify{
+      border-radius: 50%;
+      border: 2px solid black;
+      position: absolute;
+      z-index: 20;
+      background-repeat: no-repeat;
+      background-color: white;
+      box-shadow: inset 0 0 20px rgba(0,0,0,.5);
+      display: none;
+      cursor: none;
+    }
+
+    .boxx {
+      margin-left: -8px;
+      margin-right: -8px;
+    }
+
+    .cc {
+      margin-top: 5px;
+    }
+
+}
+</style>
+
+    
+ <!--   <div class="col-lg-6">
+      <div class="container-fluid px-sm-1  mx-auto">
+        <div class="row justify-content-center">
+          <div class="d-flex">
+            <div class="card">
+    
+              <fieldset id="f11" class="active">
+                <div class="product-pic">
+                  <center> <img class="pic0" src="<%=BaseUrl%>/jewellery/image/<%= data2.image[0] %>"></center>
+                </div>
+              </fieldset>
+              <% var conn = 2; for(j = 1; j < (data2.image).length; j++){ %>
+              <fieldset id="f<%=conn%>1">
+                <div class="product-pic">
+                  <center><img class="pic0" src="<%=BaseUrl%>/jewellery/image/<%= data2.image[j] %>"></center>
+                </div>
+              </fieldset>
+              <% conn++;} %>
+              <fieldset id="f911">
+                <div class="product-pic">
+                  <center><video class="vid0" controls>
+    
+                      <source src="<%=BaseUrl%>/jewellery/video/<%= data2.video %>" type="video/mp4">
+                    </video></center>
+                </div>
+              </fieldset>
+    
+              <div id="slide-wrapper">
+                <img id="slideLeft" class="arrow" src="<%=BaseUrl%>/jewellery/image/arrow-left.png">
+    
+                <div id="slider">
+                  <div id="f1" class="tb tb-active"> <img class="thumbnail "
+                      src="<%=BaseUrl%>/jewellery/image/<%= data2.image[0] %>"> </div>
+                  <% var conn = 2; for(j = 1; j < (data2.image).length; j++){ %>
+                  <div id="f<%=conn%>" class="tb"> <img class="thumbnail"
+                      src="<%=BaseUrl%>/jewellery/image/<%= data2.image[j] %>"> </div>
+                  <% conn++;} %>
+                  <% if(data2.video != 'null'){ %>
+                  <div id="f91" class="tb"> <video class="thumbnail" width="100" height="100"
+                      src="<%=BaseUrl%>/jewellery/video/<%= data2.video %>"></video> 
+                  </div>
+                  <% } %>
+                </div>
+    
+                <img id="slideRight" class="arrow" src="<%=BaseUrl%>/jewellery/image/arrow-right.png">
+              </div>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+   <div class="col-lg-6 ">
+  <div class="container-fluid px-sm-1 mx-auto">
+    <div class="row justify-content-center">
+      <div class="d-flex">
+        <div class="">
+          <span class="card">
+            
+          <!-- <fieldset id="f11" class="active">
+            <div class="product-slick">
+                <a href="<%=BaseUrl%>/jewellery/image/<%= data2.image[0] %>">
+                  <img 
+                  itemprop="image"
+                  data-src="<%=BaseUrl%>/jewellery/image/<%=data2.image[0]%>" 
+                  data-widths="[157, 270, 303, 370, 377, 670, 570, 720, 900, 1080, 1296, 1512, 1728, 2048]" 
+                  data-aspectratio="2.0" 
+                  data-sizes="auto"  
+                  class="lazyload magnifiedImg  img-fluid image_zoom_cls-0 main_img pic0 MagicZoom" 
+                  data-options="zoomWidth:400px; zoomHeight:400px" 
+                  src="<%=BaseUrl%>/jewellery/image/<%= data2.image[0] %>">
+                </a>
+            </div>
+          </fieldset> -->
+
+          <fieldset id="f11" class="active">
+            <center>
+            <div class="product-pic">
+              <!--  <a href="<%=BaseUrl%>/jewellery/image/<%= data2.image[0] %>"> -->
+                  <img 
+                  class="lazyload img-fluid pic0" 
+                  src="<%=BaseUrl%>/jewellery/image/<%= data2.image[0] %>">
+               <!-- </a>-->
+            </div>
+          </center>
+          </fieldset>
+
+
+          <% var conn = 2; for(j = 1; j < (data2.image).length; j++){ %>
+          
+          <fieldset id="f<%=conn%>1">
+            <div class="product-pic">
+              <center>
+              <!--  <a href="<%=BaseUrl%>/jewellery/image/<%= data2.image[j] %>">-->
+                  <img 
+                  class="lazyload img-fluid pic0"
+                  src="<%=BaseUrl%>/jewellery/image/<%= data2.image[j] %>">
+              <!--  </a>-->
+            </center>
+             </div>
+          </fieldset>
+          <% conn++;} %>
+
+          <fieldset id="f911">
+              <center>
+                <video class="vid0"  loop controls muted autoplay> 
+                  <source src="<%=BaseUrl%>/jewellery/video/<%= data2.video %>" type="video/mp4">
+                </video>
+              </center>
+          </fieldset>
+        </span>
+        
+
+          <div class="row boxx cc">
+
+              <div id="f1" class="tb tb-active col-3"> 
+                <img class="thumbnail" src="<%=BaseUrl%>/jewellery/image/<%= data2.image[0] %>"> 
+              </div>
+              <% var conn = 2; for(j = 1; j < (data2.image).length; j++){ %>
+              <div id="f<%=conn%>" class="tb col-3"> 
+                <img class="thumbnail" src="<%=BaseUrl%>/jewellery/image/<%= data2.image[j] %>"> 
+              </div>
+              <% conn++;} %>
+              <% if(data2.video != null){ %>
+              <div id="f91" class="tb col-3"> 
+                <video class="thumbnail vdo"> 
+                  <source src="<%=BaseUrl%>/jewellery/video/<%= data2.video %>" type="video/mp4">
+                </video>
+              </div>
+              <% } %>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script>
+/*    let buttonRight = document.getElementById('slideRight');
+   let buttonLeft = document.getElementById('slideLeft');
+
+    buttonLeft.addEventListener('click', function(){
+    document.getElementById('slider').scrollLeft -= 180
+    })
+
+    buttonRight.addEventListener('click', function(){
+    document.getElementById('slider').scrollLeft += 180
+    })*/
+
+    $(document).ready(function () {
+
+    $(".tb").hover(function () {
+
+      $(".tb").removeClass("tb-active");
+      $(this).addClass("tb-active");
+
+      current_fs = $(".active");
+
+      next_fs = $(this).attr('id');
+      next_fs = "#" + next_fs + "1";
+
+      $("fieldset").removeClass("active");
+      $(next_fs).addClass("active");
+
+      current_fs.animate({}, {
+        step: function () {
+          current_fs.css({
+            'display': 'none',
+            'position': 'relative'
+          });
+          next_fs.css({
+            'display': 'block'
+          });
+        }
+      });
+    });
+
+    });
+  </script>
+
+  
+
+        <div class="col-lg-6">
+          <div class="product-right">
+
+            <h2 itemprop="name" class="lang_trans" data-trans="#4753676566663_pro_title" style="font-size: 25px;">
+              <%= data2.name %>
+              
+            </h2>
+            
+            <h3 id="realtimeamount">Rs. <%= data2.price %></h3>
+
+            <div class="bttnn">
+              <div class="product-buttons" style="text-align: left;">
+                <button data-toggle="modal" data-target="#product-inquiry" class="add_to_cart_btn_cls cart_btn_class btn btn-solid">Inquery about Product?</button>
+              </div>
+            </div>
+
+            <style>
+              .bttnn {
+                margin-bottom: 3px;
+                display: inline-flex;
+              }
+            </style>
+
+            <div class="border-product" style="text-align: left;">
+
+              <h4 class="product-title" style="padding-top: 10px;">Your Customization</h4>
+
+
+            <br><div class="bttnn" style="text-align: left;">
+              <span style="background-color: #f8f8f8; padding-top: 5px; padding-bottom: 5px;"> &nbsp;Gold &nbsp;</span><br>
+            </div>
+
+            <div class="bttnn" style="text-align: left;">
+              <span style="background-color: #f8f8f8; padding-top: 5px; padding-bottom: 5px;">&nbsp;
+                <% for(var i = 0; i < data3.length; i++){ %>
+                  <% if(data3[i].pcategory == 'Gold'){ %>
+                    <input type="radio" class="radio" onclick="getCustomizationOnGoldQuality();" name="gold" value="<%= data3[i]._id %>" checked> <%= data3[i].name%> &nbsp;&nbsp;  
+                  <% } %>
+                <% } %>
+              </span>
+            </div><br>
+
+            <% if(data2.dcarat != 0 && data2.dpeaces != 0){ %>
+              <div class="bttnn" style="text-align: left;">
+                <span style="background-color: #f8f8f8; padding-top: 5px; padding-bottom: 5px;"> &nbsp;Diamond &nbsp;</span>
+              </div>
+
+              <div class="bttnn" style="text-align: left;">
+                <span style="background-color: #f8f8f8; padding-top: 5px; padding-bottom: 5px;">
+                  &nbsp;
+                  <% for(var i = 0; i < data3.length; i++){ %>
+                    <% if(data3[i].pcategory == 'Diamond'){ %>
+                      
+                      <input type="radio" class="radio" onclick="getCustomizationOnGoldQuality();" name="diamond" value="<%= data3[i]._id %>" checked> <%= data3[i].name%> &nbsp;&nbsp;  
+                      
+                    <% } %>
+                  <% } %>
+                  
+                </span>
+              </div>
+
+              <% }else{ %>
+                <input type="radio" class="radio" onclick="getCustomizationOnGoldQuality();" name="diamond" value="<%= data3[0]._id %>" checked hidden>
+                <% } %>
+
+                <!-- <h4 class="product-title" style="padding-top: 10px;">product details</h4>
+                <div style="white-space: pre-line;">
+                 <%= data2.description %>
+                </div> -->
+              </div>
+
+              <!-- <div class="border-product"></div> -->
+
+             <h6 class="product-title" style="padding-bottom: 5px;text-align: left;">Share it</h6>
+
+             <div class="product-icon" style="justify-content: left;">
+
+               <ul class="product-social">
+
+                <li>
+                  <a target="_blank" href="https://www.facebook.com" title="Share">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.google.com" title="Google it">
+                    <i class="fa fa-google-plus"></i>
+                  </a>
+                </li>  
+                <li>
+                  <a target="_blank" href="https://www.twitter.com" title="Tweet">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>  
+                <li>
+                  <a target="_blank" href="https://www.pinterest.com" title="Pin it">
+                    <i class="fa fa-pinterest"></i>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com" title="Linkedin it">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+
+              </ul>
+          </div>
+
+        </div>
+
+      </div>
+  </div>
+
+    </div>
+  </div>
+</div>
+</section>
+
+<!--<div class="container section-b-space">
+  <div class="tab-product m-0">
+  <div class="row">
+    <div class="col-sm-12 col-lg-12">
+      <ul class="nav nav-tabs nav-material" id="top-tab" role="tablist">
+        
+        <li class="nav-item">
+          <a class="nav-link active show" id="top-home-tab" data-toggle="tab" href="#top-home" role="tab" aria-selected="true">
+            <i class="icofont icofont-ui-home"></i>
+            <span class="lang_trans" data-trans="#tab_horizontal_4754535809159_tab_title_1">
+              Product Description
+            </span>
+            
+            <span class="hide"></span>
+            
+          </a>
+          <div class="material-border"></div>
+        </li>
+        
+        
+      </ul>
+      <div class="tab-content nav-material" id="top-tabContent">
+        
+        <div class="tab-pane fade active show" id="top-home" role="tabpanel" aria-labelledby="top-home-tab">
+            <div style="white-space: pre-line;">
+              <%= data2.description %>
+             </div>
+        </div>
+        
+        <div class="tab-pane fade" id="top-review" role="tabpanel" aria-labelledby="review-top-tab">
+          <div id="shopify-product-reviews" data-id="4754535809159">
+            <style scoped="">
+              .spr-container {
+                padding: 24px;
+                border-color: #ECECEC;}
+              .spr-review, .spr-form {
+                border-color: #ECECEC;
+              }
+            </style>
+          </div>          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>-->
+
+<div class="container section-b-space">
+  <div class="tab-product m-0">
+  <div class="row">
+    <div class="col-sm-12 col-lg-12">
+      <ul class="nav nav-tabs nav-material" id="top-tab" role="tablist">
+        
+        <li class="nav-item">
+          <a class="nav-link active show" id="top-home-tab" data-toggle="tab" href="#top-home" role="tab" aria-selected="true">
+            <i class="icofont icofont-ui-home"></i>
+            <span class="lang_trans" data-trans="#tab_horizontal_4754535809159_tab_title_1">
+              Product Description
+            </span>
+            
+            <span class="hide"></span>
+            
+          </a>
+          <div class="material-border"></div>
+        </li>
+        
+        
+      </ul>
+
+      <style>
+        table {
+          border-collapse: collapse;
+          /* border-style: solid;
+          border-color: black; */
+          box-shadow:  0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 5px 8px 0 rgba(0, 0, 0, 0.19);
+          width: 100%;
+          margin-top: 15px;
+        }
+         td {
+          text-align: left;
+          padding: 8px;
+        }
+        tr:nth-child(odd){background-color: #f2f2f2}
+        .lines {
+          white-space: pre-line;
+        }
+        </style>
+
+      <div class="row">
+      
+        <div class="col-xl-6">
+      
+          <table>
+      
+            <tr>
+              <td>Approx. Metal Weight : </td>
+              <td> <%= data2.ggram %> gm</td>
+            </tr>
+      
+            <tr>
+              <td>Metal/Purity :</td>
+              <td id="realcarat"> 
+                <%= ct %>
+              </td>
+            </tr>
+      
+            <tr>
+              <td>Total Diamonds :</td>
+              <td><%= data2.dpeaces %> </td>
+            </tr>
+      
+            <tr>
+              <td>Total Diamond Weight :</td>
+              <td ><%= data2.dcarat %> Ct.</td>
+            </tr>
+      
+            <tr>
+              <td>Diamond Quality :</td>
+              <td id="realkarat">
+                <%= dd %>
+              </td>
+            </tr>
+
+            <% if(data2.description){ %>
+            <tr>
+              <td class="lines">
+                  <%= data2.description %>
+              </td>
+              <td></td>
+            </tr>
+            <% } %>
+           
+          </table>
+      
+        </div>
+      
+          <div class="col-xl-6">
+          
+            <h3 class="text-center" style="margin-top: 25px;">MANTRA DIAMOND CERTIFIED</h3>
+            <ul class="row">
+              <li class="col-xl-12 text-center"><img width="140" height="135"
+                  src="<%=BaseUrl%>/jewellery/image/certified.png">
+                <p class="mt-3"> Certified Diamond Jewellery</p>
+              </li>
+              <li class="col-xl-6 text-center"><img width="140"
+                  src="<%=BaseUrl%>/jewellery/image/hallmark.jpeg">
+                <p class="mt-3"> Bis Hallmark Jewellery </p>
+              </li>
+              <li class="col-xl-6 text-center"><img width="140"
+                  src="<%=BaseUrl%>/jewellery/image/world wide.jpeg">
+                <p class="mt-3"> Secure Shipping <br> -Domestic <br>-international</p>
+              </li>
+            </ul>
+          </div>
+
+  </div>
+</div>
+</div>
+
+
+<style type="text/css">
+  img {
+  max-width: 100%;
+}
+
+.img-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+}
+
+@media only screen and (min-width: 750px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 970px) {
+  .img-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+</style>
+
+
+
+
+<section class="section-b-space ratio_square product-related ">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 product-related">
+        <h2 class="title" style="color: black;">
+          Related Products
+        </h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="img-grid">
+    <% if (data.length > 0) { %>
+      <% for(var i = 0; i < data.length; i++ ) { %>
+    
+      <a href="/products/<%=data[i]._id %>">
+      <div class="product-box product-wrap" style="padding-bottom: 14px;">
+        <div class="img-wrapper">
+          
+          <div class="front">
+              <img src="<%=BaseUrl%>/jewellery/image/<%=data[i].image[0]%>" 
+              class="lazyload  img-fluid  w-100" alt="Dobule Unique chain">
+          </div>
+         
+      </div>
+      <div class="product-info">
+          <h6 itemprop="name" class="lang_trans">
+            <p style="color: #777777;">   <%= data[i].name %> </p>
+        </h6>
+        <div class="rating">
+          <span class="shopify-product-reviews-badge"></span>
+        </div>
+        <h4>
+         Rs. <%= data[i].price %> 
+        </h4>
+      </div>
+    </div>
+  </a>
+  <% }} %></div></div>
+
+
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+
+<!--
+<div class="modal fade" id="product-inquiry" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel">Have a question?</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="/addinquiry" method="post"  class="theme-form">
+
+          <div class="form-row">
+            <div class="col-md-12">
+              <label for="name">Your Name</label>
+              <input type="text" class="form-control" placeholder="Name" id="ContactFormName" name="contactname" value="" required>
+            </div>
+            <div class="col-md-12">
+              <label for="review">Phone number</label>
+              <input type="number" minlength="10" class="form-control" placeholder="Phone Number" id="ContactFormPhone" name="mobile" pattern="[0-9\-]*" value="" required>
+            </div>
+            <input type="text" name="id" value="<%= data2._id %>" hidden>
+            <input type="text" name="name" value="<%= data2.name %>" hidden>
+            <input type="text" name="category" value="<%= data2.category %>" hidden>
+            <input type="text" name="image" value="<%= data2.image[0] %>" hidden>
+            <div class="col-md-12">
+              <button id="submit" class="btn btn-solid" name="submit">Send</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+<div class="modal fade" id="product-inquiry" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel">Have a question?</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="insert_form"  method="post"  class="theme-form">
+
+          <div class="form-row">
+            <div class="col-md-12">
+              <label for="name">Your Name</label>
+              <input type="text" class="form-control" placeholder="Name" id="ContactFormName" name="contactname" value="" required>
+            </div>
+            <div class="col-md-12">
+              <label for="review">Phone number</label>
+              <input type="number" minlength="10" class="form-control" placeholder="Phone Number" id="ContactFormPhone" name="mobile" pattern="[0-9\-]*" value="" required>
+            </div>
+            <input type="text" name="id" value="<%= data2._id %>" hidden>
+            <input type="text" name="name" value="<%= data2.name %>" hidden>
+            <input type="text" name="category" value="<%= data2.category %>" hidden>
+            <input type="text" name="image" value="<%= data2.image[0] %>" hidden>
+            <div class="col-md-12">
+              <button id="submit" class="btn btn-solid" name="submit">Send</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+
+<style type="text/css">
+  @media (min-width: 992px){
+.pt-lg-7, .py-lg-7 {
+    padding-top: 2.375rem!important;
+}}
+
+@media (min-width: 992px){
+.pb-lg-6, .py-lg-6 {
+    padding-bottom: 1.875rem!important;
+}}
+.pt-6, .py-6 {
+    padding-top: 1.875rem!important;
+}
+.pb-4, .py-4 {
+    padding-bottom: 0.75rem!important;
+}
+@media (min-width: 768px){
+.justify-content-md-between {
+    -ms-flex-pack: justify!important;
+    justify-content: space-between!important;
+}}
+
+.justify-content-between {
+    -ms-flex-pack: justify!important;
+    justify-content: space-between!important;
+}
+
+.flex-column {
+    -ms-flex-direction: column!important;
+    flex-direction: column!important;
+}
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+@media (min-width: 768px){
+.mt-md-0, .my-md-0 {
+    margin-top: 0!important;
+}}
+
+.mt-5, .my-5 {
+    margin-top: 1.5rem!important;
+}
+
+@media (min-width: 768px){
+.mb-md-0, .my-md-0 {
+    margin-bottom: 0!important;
+}}
+
+.mb-4 {
+    margin-bottom: 1.5rem!important;
+}
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+
+.mb-3 {
+    margin-bottom: 1rem!important;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.mb-1 {
+    margin-bottom: .25rem!important;
+}
+body {
+      color: #333;
+}
+.text-reset {
+  color: #333;
+}
+@media (min-width: 768px){
+.col-md-4 {
+    /*-ms-flex: 0 0 33.33333333%;*/
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+}}
+
+.h6 h6 {
+    font-size: 1rem;
+}
+.col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.small {
+    margin-top: 2px;
+    font-size: 80%;
+    font-weight: 400;
+    background-color: #faeae2;
+}
+@media (min-width: 768px){
+.ll {
+  padding-left: 65px;
+}
+}
+
+@media (min-width: 992px){
+.mt-lg-5, .my-lg-5 {
+    margin-top: 1.5rem !important;
+}}
+
+@media (min-width: 768px){
+.ml-md-0, .mx-md-0 {
+    margin-left: 0 !important;
+}}
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{font-family:inherit;font-weight:400;line-height:1.1;color:inherit}.h1 .small,.h1 small,.h2 .small,.h2 small,.h3 .small,.h3 small,.h4 .small,.h4 small,.h5 .small,.h5 small,.h6 .small,.h6 small,h1 .small,h1 small,h2 .small,h2 small,h3 .small,h3 small,h4 .small,h4 small,h5 .small,h5 small,h6 .small,h6 small{font-weight:400;line-height:1;color:#777}.h1,.h2,.h3,h1,h2,h3{margin-top:20px;margin-bottom:10px}.h1 .small,.h1 small,.h2 .small,.h2 small,.h3 .small,.h3 small,h1 .small,h1 small,h2 .small,h2 small,h3 .small,h3 small{font-size:65%}.h4,.h5,h4,h5,h6,.h6{margin-top:10px;margin-bottom:10px}.h4 .small,.h4 small,.h5 .small,.h5 small,.h6 .small,.h6 small,h4 .small,h4 small,h5 .small,h5 small,h6 .small,h6 small{font-size:75%}.h1,h1{font-size:36px}.h2,h2{font-size:30px}.h3,h3{font-size:24px}.h4,h4{font-size:18px}.h5,h5{font-size:14px}.h6,h6{font-size:12px}p{margin:0 0 10px}
+
+
+.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}
+</style>
+
+<%- include('footer.html') %>
+        </div>
+
+        
+
+        <script src="<%=BaseUrl%>/jewellery/assets/lazysizes.min1c8c.js" ></script>
+        <script src="<%=BaseUrl%>/jewellery/assets/slick8c5c.js" ></script>
+        <script src="<%=BaseUrl%>/jewellery/assets/jquery.elevatezoom5259.js"></script>
+        <script src="<%=BaseUrl%>/jewellery/assets/menu7823.js" ></script>
+        <script src="<%=BaseUrl%>/jewellery/assets/jquery.magnific-popup257c.js" ></script>
+        <script src="<%=BaseUrl%>/jewellery/assets/script7d6c.js" ></script>
+        <script src="<%=BaseUrl%>/jewellery/assets/bootstrape48f.js"></script>
+        <!-- <script src="<%=BaseUrl%>/jewellery/jsscript.js"></script> -->
+        <script src="<%=BaseUrl%>/adminPanel/js/sweetalert.min.js"></script>
+
+        <script>
+            function getCustomizationOnGoldQuality() {
+              var checkedValue = null;
+              var inputElements = document.getElementsByClassName('radio');
+              var array2 = []
+              for (var i = 0; inputElements[i]; ++i) {
+                if (inputElements[i].checked) {
+                  array2.push(inputElements[i].value)
+                }
+              }
+
+              var api = "<%=BaseUrl%>/getamountvalue/<%= data2._id %>/"+array2[0]+"/"+array2[1]
+              $.ajax({
+                type: "GET",
+                url: api,
+                
+                success: function(data){
+                  var output = [''];
+                  output.push('Rs. '+ data.data);
+                  $('#realtimeamount').html(output.join(''));
+
+                  var kt = [];
+                  kt.push(data.kt);
+                  $('#realcarat').html(kt.join(''));
+
+                  var dd = [];
+                  dd.push(data.dd);
+                  $('#realkarat').html(dd.join(''));
+                }
+              });
+            }
+        </script>
+
+
+
+        <script type="text/javascript">
+          $(document).ready(function () {
+            $('.product-slick').slick({
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: true,
+              autoplay:true,
+              autoplaySpeed:1500,
+              fade: true,
+              adaptiveHeight: true,
+              asNavFor: '.slider-nav'
+            });
+
+            $('.slider-nav').slick({
+              vertical: false,
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              asNavFor: '.product-slick',
+              arrows: false,
+              dots: false,
+              autoplay: true,
+              focusOnSelect: true,
+              autoplaySpeed:1500,
+            });
+
+            $('.product-right-slick').slick({
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: true,
+              fade: true,
+              adaptiveHeight: true,
+              asNavFor: '.slider-right-nav',
+              autoplay:true,
+              autoplaySpeed:1500,
+            });
+            if ($(window).width() > 576) {
+              $('.slider-right-nav').slick({
+                vertical: true,
+                verticalSwiping: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                asNavFor: '.product-right-slick',
+                arrows: false,
+                infinite: true,
+                dots: false,
+                centerMode: false,
+                focusOnSelect: true,
+                autoplay:true,
+                autoplaySpeed:1500,
+              });
+            }else{
+              $('.slider-right-nav').slick({
+                vertical: false,
+                verticalSwiping: false,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                asNavFor: '.product-right-slick',
+                arrows: false,
+                infinite: true,
+                centerMode: false,
+                dots: false,
+                focusOnSelect: true,
+
+                responsive: [
+                {
+                  breakpoint: 576,
+                  settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                  }
+                }
+                ]
+              });
+            }
+          });
+
+          if($(window).width() > 991){
+            setTimeout(function(){
+              $(".slick-current .main_img").elevateZoom({
+                zoomType: "inner",
+                cursor: "crosshair"
+              });
+            }, 300);
+          }
+
+        </script>
+
+        <script>
+	$(document).ready(function(){  
+      $('#add').click(function(){  
+           $('#insert').val("Insert");  
+           $('#insert_form')[0].reset();  
+	  }); 
+	  $('#insert_form').on("submit", function(event){  
+        //   console.log('d')
+           event.preventDefault();  
+          
+          //  console.log($('#insert_form').serialize())
+                $.ajax({  
+                     url:"<%=BaseUrl%>/addinquiry",  
+                     method:"POST",  
+                     data:$('#insert_form').serialize(),  
+
+
+                     success: function (data) {
+    /*                  Swal({
+  position: 'top-end',
+  icon: 'success',
+  title: 'Inquiry Inserted Successfully. We will contact You Solrtly.',
+  showConfirmButton: false,
+  timer:2500
+}) */
+//swal("Good job!", "Blocked User!", "success");
+//                      location.reload()
+
+
+
+
+                            swal({
+				title: "Inquiry Inserted Successfully.",
+				text: "We Will Contact You Sortly",
+				type: "success",
+				buttons: true,
+				confirmButtonColor: "DD6B55success",
+			//	confirmButtonText: "add subcategory"
+			},function (isConfirm) {
+					if (isConfirm) {
+						location.reload();
+					}
+				})	 
+
+
+
+
+
+
+
+
+
+
+ /* swal({
+				title: "success",
+				text: "Inquiry Inserted Successfully. We will contact You Solrtly.",
+				type: "success",
+				confirmButtonColor: "#DD6B55success"
+		},
+		function (isConfirm) {
+					if (!isConfirm) {
+					//	swal("Cancelled", "Request Cancelled!", "error");
+						location.reload();
+					}
+				})*/
+                     }                       
+
+                })
+      })   
+
+	})
+</script>
+
+
+        <!-- Footer Scripts ================================ -->
+      </body>
+      </html>

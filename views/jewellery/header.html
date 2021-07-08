@@ -1,0 +1,169 @@
+  <header class="header-gym header-7  ">
+    <!-- <div class="mobile-fix-option"></div> -->
+    <div class="top-header ">
+      <div class="container">
+        <div class="row">
+          <div class="nav-left col-lg-4 col-md-6">
+            <div class="header-contact" style="padding: 5px 0px;">
+              <ul>
+                <li class="call"><i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="lang_trans" data-trans="#header1_header-7_phone_number">
+                    Need Help? Free call us: <span>+91 9898-3333-89</span>
+                  </span>
+                  <span class="hide" id="header1_header-7_phone_number"></span>                
+                </li>                               
+              </ul>
+            </div>
+          </div>
+          <div class="social-white nav-center col-lg-4 col-md-6">
+            
+          </div>
+
+          <div class="social-white nav-right col-lg-4 col-md-6">
+            <ul>
+              <li class="facebook">
+                <a href="https://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              </li>
+              <li class="google">
+                <a href="https://plus.google.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+              </li>
+              <li class="twitter">
+                <a href="https://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+              <li class="insta">
+                <a href="http://instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </li>
+              <li class="rss">
+                <a href="index.html"><i class="fa fa-rss" aria-hidden="true"></i></a>
+              </li>
+              <li class="youtube">
+                <a href="https://www.youtube.com"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+<!-- </header> -->
+<div class="full-nav">
+    <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="main-menu">
+          <div class="menu-left">
+            
+              <div class="brand-logo" itemscope itemtype="http://schema.org/Organization">
+                <a href="/" itemprop="url"> 
+                  <img src="<%=BaseUrl%>/jewellery/image/logo.png" class="img-fluid lazyload " alt="ps-jewelshop" style="max-width:150px">
+                </a>
+              </div>
+            
+          </div>
+          <div class="main-menu-outer menu-center">
+            <nav id="main-nav">
+              <div class="toggle-nav">
+                <i class="fa fa-bars sidebar-bar"></i>
+              </div>
+              <!-- Horizontal menu -->
+              <ul id="main-menu" class="sm pixelstrap sm-horizontal ">
+                  <li>
+                    <div class="mobile-back text-right">
+                      <span data-trans-key="layout.navigation.back">back</span>
+                      <i class="fa fa-angle-right pl-2" aria-hidden="true"></i>
+                    </div>
+                  </li>
+                  
+                  
+                <% if(data1){ %>
+                  <% for(var i = 0; i < data1.length; i++ ) { %>
+                    <% if((i+1) <= 5){ %>
+                  <li><a>
+                     <span style="text-transform: uppercase;">
+                      <%= data1[i].name %> 
+                    </span>
+                    </a>
+                    <ul>
+                      <% if((data1[i].item).length > 0){ %>
+                      <% for(var j = 0; j < (data1[i].item).length; j++){ %>
+                      <li>
+                        <a href="<%=BaseUrl%>/scategory/<%=data1[i].name%>/<%=data1[i].item[j].name%>/1">
+                          <%= data1[i].item[j].name %>
+                        </a>
+                      </li>
+                      <% }} %>
+                    </ul>
+
+                  </li>
+                  <% }}} %>
+
+
+
+                  <li class="mega hover-cls hh" >
+                    <a>
+                      <span class="lang_trans">
+                        ALL
+                      </span>
+                    </a>
+
+                    <ul class="mega-menu full-mega-menu">
+                      <li>
+                        <div class="container-fluid">
+                          <div class="row">
+
+                            <% if(data1){ %>
+                              <% for(var i = 0; i < data1.length; i++ ) { %>
+                            <div class="col mega-box">
+                              <div class="link-section">
+
+                                <div class="menu-title">
+                                  <h5 class="lang_trans">
+                                    <%= data1[i].name %> 
+                                  </h5>
+                                </div>
+
+                                <div class="menu-content">
+                                  <ul>
+                                    <% if((data1[i].item).length > 0){ %>
+                                      <% for(var j = 0; j < (data1[i].item).length; j++){ %>
+
+                                    <li>
+                                      <a href="<%=BaseUrl%>/scategory/<%=data1[i].name%>/<%=data1[i].item[j].name%>/1">
+                                        <%= data1[i].item[j].name %>
+                                      </a>
+                                    </li>
+
+                                    <% }} %>
+                                    
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <% }} %>
+                            </li>
+                            </ul>
+                            
+                          </li>
+
+                          </div>
+                        </div>
+                        
+                      </li>
+                    </ul>
+                  </li>
+                  
+                  
+                </ul>
+            </nav>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</header>
+</div>

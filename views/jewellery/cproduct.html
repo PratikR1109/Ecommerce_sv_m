@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from ps-jewelshop.myshopify.com/collections/new-jewellery by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Jun 2020 06:51:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#faeae2">
+
+
+
+  <script src="<%=BaseUrl%>/jewellery/assets/slider-animationb39a.js?v=12868018276226529357" type="text/javascript"></script>
+
+
+
+  <link href="<%=BaseUrl%>/jewellery/assets/fontawesomea35f.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/slick591e.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/slick-themec224.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/animate5570.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/themify1c32.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/bootstrape287.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/menu0cdc.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/magnific-popup5b32.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/jquery.fancybox46c7.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/plugins.scssb5a3.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/swatches69dc.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/style.scss2884.css" rel="stylesheet" type="text/css" media="all" id="color" />
+  <link href="<%=BaseUrl%>/jewellery/assets/theme-dark.scss95d6.css"  rel="stylesheet" type="text/css" media="all" />
+  <link href="<%=BaseUrl%>/jewellery/assets/responsive.scsseb80.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,800&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Dancing+Script:400,500,600,700|Great+Vibes|Pacifico&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2:400,400i,500,500i,600,700&amp;display=swap" rel="stylesheet"> 
+
+</head>
+
+<body class="template-collection">
+
+<%- include('header.html') %>
+
+<!--<div class="breadcrumb-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="page-title">
+          <h2 class="lang_trans">
+          <center>
+            <%= categoryName %>
+          </center>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>-->
+
+
+
+<div class="breadcrumb-section">
+        <div class="container">
+          <div class="row">
+
+
+            <div class="col-sm-6">
+              <div class="page-title">
+
+
+
+
+              <!--  <h2 class="lang_trans" data-trans="#golden_breadcrumb_page_title">
+                    <a href="<%=BaseUrl%>" style="color: #333;">Home</
+                </h2>-->
+
+                <!-- <span class="hide" id="golden_breadcrumb_page_title">Golden</span> -->
+
+
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <nav aria-label="breadcrumb" class="theme-breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="<%=BaseUrl%>" data-trans-key="general.breadcrumb.home">Home</a></li>
+      
+                  
+                  
+                  <li class="breadcrumb-item active lang_trans" data-trans="#golden_breadcrumb_active_page_title">
+                    <%= categoryName %>
+                  </li>
+                  
+                  
+      
+                </ol>
+              </nav>
+            </div>
+      
+                  
+          </div>
+        </div>
+      </div>
+
+
+<style type="text/css">
+img {
+  max-width: 100%;
+}
+
+.img-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+}
+
+@media only screen and (min-width: 750px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 970px) {
+  .img-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+</style>
+
+
+<div id="shopify-section-collection-without-sidebar-template" class="shopify-section">
+  <section class="section-big-pt-space ratio_asos">
+    <div class="collection-wrapper">
+      <div class="container">
+
+
+        <div class="img-grid">
+
+          <% if (data.length > 0) { %>
+          <% for(var i = 0; i < data.length; i++ ) { %>
+
+          <div class="product-box product-wrap">
+            <div class="img-wrapper">
+
+              <div class="front">
+                <a href="<%=BaseUrl%>/products/<%=data[i]._id%>">
+                <img src="<%=BaseUrl%>/jewellery/image/<%=data[i].image[0]%>" 
+                class="lazyload  img-fluid  w-100" alt="Dobule Unique chain">
+                </a>
+              </div>
+
+                                    </div>
+                                    <div class="product-info">
+                                      <h6 itemprop="name" class="lang_trans">
+                                        <%= data[i].name %>
+                                      </h6>
+                                      <div class="rating">
+                                        <span class="shopify-product-reviews-badge"></span>
+                                      </div>
+                                      <h4>
+                                        Rs. <%= data[i].price %> 
+                                        <!-- <del>$25.00</del> -->
+                                      </h4>
+                                    </div>
+                                  </div>
+
+                                  <% }} %>
+
+
+
+
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <style>
+
+                              
+                              .center {
+                                margin-top: 50px;
+                                margin-bottom: 30px;
+                                text-align: center;
+                              }
+
+                              .pagination {
+                                display: inline-block;
+                              }
+
+                              .pagination a {
+                                color: black;
+                                float: left;
+                                padding: 8px 16px;
+                                text-decoration: none;
+                                transition: background-color .3s;
+                                border: 1px solid #ddd;
+                                margin: 0 4px;
+                              }
+
+                              .pagination a.active {
+                                background-color: #4CAF50;
+                                color: white;
+                                border: 1px solid #4CAF50;
+                              }
+
+                            .pagination a:hover:not(.active) {background-color: #ddd;}</style>
+                              <div class="center">
+                                <nav class="pagination">
+                                  <% if (pages > 0) { %>
+                                  <ul class="pagination" id="pagination">
+                                    <% if (current == 1) { %>
+                                    <li class="disabled"><a class="btn btn-default"><i class="fa fa-arrow-left"></i></a></li>
+                                    <% } else { %>
+                                    <li><a class="btn btn-default" href="<%=BaseUrl%>/category/<%=categoryName%>/1"><i class="fa fa-arrow-left"></i></a></li>
+                                    <% } %>
+                                    <% var i = (Number(current) > 2 ? Number(current) - 1 : 1) %>
+                                    <% if (i !== 1) { %>
+                                    <li class="disabled"><a>...</a></li>
+                                    <% } %>
+                                    <% for (; i <= (Number(current) + 1) && i <= pages; i++) { %>
+                                    <% if (i == current) { %>
+                                    <li class="pagination-arrow"><a class="btn btn-default" style="background-color: #faeae2;"><%= i %></a></li>
+                                    <% } else { %>
+                                    <li><a class="btn btn-default" href="<%=BaseUrl%>/category/<%=categoryName%>/<%= i %>"><%= i %></a></li>
+                                    <% } %>
+                                    <% if (i == Number(current) + 1 && i < pages) { %>
+                                    <li class="disabled"><a>...</a></li>
+                                    <% } %>
+                                    <% } %>
+                                    <% if (current == pages) { %>
+                                    <li class="disabled"><a class="btn btn-default"><i class="fa fa-arrow-right"></i></a></li>
+                                    <% } else { %>
+                                    <li><a class="btn btn-default" href="<%=BaseUrl%>/category/<%=categoryName%>/<%= pages %>"><i class="fa fa-arrow-right"></i></a></li>
+                                    <% } %>
+  
+                                  </ul>
+                                  <% } %>
+                                </nav>
+                              </div>
+
+                          </section>
+
+                        </div>
+
+
+<style type="text/css">
+  @media (min-width: 992px){
+.pt-lg-7, .py-lg-7 {
+    padding-top: 2.375rem!important;
+}}
+
+@media (min-width: 992px){
+.pb-lg-6, .py-lg-6 {
+    padding-bottom: 1.875rem!important;
+}}
+.pt-6, .py-6 {
+    padding-top: 1.875rem!important;
+}
+.pb-4, .py-4 {
+    padding-bottom: 0.75rem!important;
+}
+@media (min-width: 768px){
+.justify-content-md-between {
+    -ms-flex-pack: justify!important;
+    justify-content: space-between!important;
+}}
+
+.justify-content-between {
+    -ms-flex-pack: justify!important;
+    justify-content: space-between!important;
+}
+
+.flex-column {
+    -ms-flex-direction: column!important;
+    flex-direction: column!important;
+}
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+@media (min-width: 768px){
+.mt-md-0, .my-md-0 {
+    margin-top: 0!important;
+}}
+
+.mt-5, .my-5 {
+    margin-top: 1.5rem!important;
+}
+
+@media (min-width: 768px){
+.mb-md-0, .my-md-0 {
+    margin-bottom: 0!important;
+}}
+
+.mb-4 {
+    margin-bottom: 1.5rem!important;
+}
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+
+.mb-3 {
+    margin-bottom: 1rem!important;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.mb-1 {
+    margin-bottom: .25rem!important;
+}
+body {
+      color: #333;
+}
+.text-reset {
+  color: #333;
+}
+@media (min-width: 768px){
+.col-md-4 {
+    /*-ms-flex: 0 0 33.33333333%;*/
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+}}
+
+.h6 h6 {
+    font-size: 1rem;
+}
+.col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.small {
+    margin-top: 2px;
+    font-size: 80%;
+    font-weight: 400;
+    background-color: #faeae2;
+}
+@media (min-width: 768px){
+.ll {
+  padding-left: 65px;
+}
+}
+
+@media (min-width: 992px){
+.mt-lg-5, .my-lg-5 {
+    margin-top: 1.5rem !important;
+}}
+
+@media (min-width: 768px){
+.ml-md-0, .mx-md-0 {
+    margin-left: 0 !important;
+}}
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{font-family:inherit;font-weight:400;line-height:1.1;color:inherit}.h1 .small,.h1 small,.h2 .small,.h2 small,.h3 .small,.h3 small,.h4 .small,.h4 small,.h5 .small,.h5 small,.h6 .small,.h6 small,h1 .small,h1 small,h2 .small,h2 small,h3 .small,h3 small,h4 .small,h4 small,h5 .small,h5 small,h6 .small,h6 small{font-weight:400;line-height:1;color:#777}.h1,.h2,.h3,h1,h2,h3{margin-top:20px;margin-bottom:10px}.h1 .small,.h1 small,.h2 .small,.h2 small,.h3 .small,.h3 small,h1 .small,h1 small,h2 .small,h2 small,h3 .small,h3 small{font-size:65%}.h4,.h5,h4,h5,h6,.h6{margin-top:10px;margin-bottom:10px}.h4 .small,.h4 small,.h5 .small,.h5 small,.h6 .small,.h6 small,h4 .small,h4 small,h5 .small,h5 small,h6 .small,h6 small{font-size:75%}.h1,h1{font-size:36px}.h2,h2{font-size:30px}.h3,h3{font-size:24px}.h4,h4{font-size:18px}.h5,h5{font-size:14px}.h6,h6{font-size:12px}p{margin:0 0 10px}
+
+
+.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}
+</style>
+
+
+
+
+<%- include('footer.html') %>
+
+        </div>
+
+
+
+
+
+
+
+
+<script src="<%=BaseUrl%>/jewellery/assets/lazysizes.min1c8c.js?v=11310412493472094813" ></script>
+<script src="<%=BaseUrl%>/jewellery/assets/slick8c5c.js?v=8345693097718451975" ></script>
+<script src="<%=BaseUrl%>/jewellery/assets/menu7823.js?v=9833435401722211275" ></script>
+<script src="<%=BaseUrl%>/jewellery/assets/jquery.magnific-popup257c.js?v=4445505103650959445" ></script>
+<script src="<%=BaseUrl%>/jewellery/assets/script7d6c.js?v=10760844526346221320" ></script>  
+  </body>
+  </html>
